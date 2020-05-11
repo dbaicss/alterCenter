@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"io/ioutil"
 	"strings"
-	orm "alterGateway/database"
+	orm "alterCenter/database"
 )
 
 func InitDb() error {

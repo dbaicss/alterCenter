@@ -7,6 +7,7 @@ import (
 
 var cfgDatabase *viper.Viper
 var cfgApplication *viper.Viper
+var cfgMessage *viper.Viper
 
 
 func init() {
@@ -29,6 +30,12 @@ func init() {
 		panic("config not found settings.application")
 	}
 	ApplicationConfig = InitApplication(cfgApplication)
+
+	cfgMessage = viper.Sub("settings.message")
+	if cfgMessage == nil {
+		panic("config not found settings.message")
+	}
+	MessageConfig = InitMessage(cfgMessage)
 }
 
 func SetApplicationIsInit() {

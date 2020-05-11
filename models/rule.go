@@ -1,7 +1,7 @@
 package models
 
 import (
-	orm "alterGateway/database"
+	orm "alterCenter/database"
 )
 
 type Rule struct {

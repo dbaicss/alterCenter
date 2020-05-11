@@ -2,8 +2,8 @@ package gorm
 
 import (
 	"github.com/jinzhu/gorm"
-	"alterGateway/config"
-	"alterGateway/models"
+	"alterCenter/config"
+	"alterCenter/models"
 )
 
 func AutoMigrate(db *gorm.DB) error {

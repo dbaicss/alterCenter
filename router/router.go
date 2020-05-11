@@ -1,7 +1,7 @@
 package router
 
 import (
-	"alterGateway/apis/rules"
+	"alterCenter/apis/rules"
 	"github.com/gin-gonic/gin"
 	"log"
 )

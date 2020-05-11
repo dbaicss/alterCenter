@@ -1,11 +1,11 @@
 package main
 
 import (
-	"alterGateway/config"
-	orm "alterGateway/database"
-	"alterGateway/models"
-	"alterGateway/models/gorm"
-	"alterGateway/router"
+	"alterCenter/config"
+	orm "alterCenter/database"
+	"alterCenter/models"
+	"alterCenter/models/gorm"
+	"alterCenter/router"
 	"context"
 	"github.com/gin-gonic/gin"
 	"log"

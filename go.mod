@@ -1,4 +1,4 @@
-module alterGateway
+module alterCenter
 
 go 1.13
 

@@ -1,10 +1,10 @@
 package rules
 
 import (
-	"alterGateway/models"
-	"alterGateway/pkg"
-	"alterGateway/pkg/app"
-	"alterGateway/pkg/app/msg"
+	"alterCenter/models"
+	"alterCenter/pkg"
+	"alterCenter/pkg/app"
+	"alterCenter/pkg/app/msg"
 	"github.com/gin-gonic/gin"
 )
 

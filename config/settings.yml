@@ -16,3 +16,10 @@ settings:
     password: dabing12130
     port: 3306
     username: dabing
+  message:
+    #短信接口key
+    appkey: e71xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    #短信模版ID
+    tplid: xxxxxx
+    #短信sdk app id
+    sdkappid: xxxxxxxxx

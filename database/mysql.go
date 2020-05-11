@@ -5,7 +5,7 @@ import (
 	"fmt"
 	_ "github.com/go-sql-driver/mysql" //加载mysql
 	"github.com/jinzhu/gorm"
-	config2 "alterGateway/config"
+	config2 "alterCenter/config"
 	"log"
 	"strconv"
 )
